@@ -1,4 +1,9 @@
 import React from 'react';
+import xIcon from '../../assets/x.png'
+import linkedinIcon from '../../assets/linkedin.png'
+import facebookIcon from '../../assets/facebook.png'
+import mailIcon from '../../assets/mail.png'
+
 
 const Footer = () => {
     return (
@@ -34,11 +39,12 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div>
-                        <h4 className='font-bold text-2xl mb-3'>Information</h4>
+                        <h4 className='font-bold text-2xl mb-3'>Social Links</h4>
                         <ul className='space-y-2'>
-                            <li><a href="">Privacy Policy</a></li>
-                            <li><a href="">Terms & Conditions</a></li>
-                            <li><a href="">Join Us</a></li>
+                            <li><a href="" className='flex items-center'><img className='mr-2 w-[30px] h-[30px]' src={linkedinIcon} alt="" /> LinkedIn</a></li>
+                            <li><a href="" className='flex items-center'><img className='mr-2 w-[30px] h-[30px]' src={xIcon} alt="" /> Twitter</a></li>
+                            <li><a href="" className='flex items-center'><img className='mr-2 w-[30px] h-[30px]' src={facebookIcon} alt="" /> Facebook</a></li>
+                            <li><a href="" className='flex items-center'><img className='mr-2 w-[30px] h-[30px]' src={mailIcon} alt="" /> support@cst.com</a></li>
                         </ul>
                     </div>
                 </div>
