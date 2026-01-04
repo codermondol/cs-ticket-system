@@ -1,0 +1,92 @@
+[
+  {
+    "id": "#1001",
+    "title": "Login Issues - Can't Access Account",
+    "description": "User is experiencing a persistent authentication loop despite entering correct credentials and clear browser cache.",
+    "customer": "John Smith",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "created_at": "1/15/2024"
+  },
+  {
+    "id": "#1002",
+    "title": "Payment Failed - Card Declined",
+    "description": "The transaction was rejected by the processor with a 'Stripe Error 402'. User confirmed the bank is not blocking the request.",
+    "customer": "Sarah Johnson",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "created_at": "1/16/2024"
+  },
+  {
+    "id": "#1003",
+    "title": "Unable to Download Invoice",
+    "description": "Clicking the 'Download PDF' link triggers a server 500 error instead of initiating the file transfer for invoice INV-9902.",
+    "customer": "Michael Brown",
+    "priority": "MEDIUM PRIORITY",
+    "status": "In-Progress",
+    "created_at": "1/17/2024"
+  },
+  {
+    "id": "#1004",
+    "title": "Incorrect Billing Address",
+    "description": "System failed to save the updated ZIP code in the user profile, causing shipping calculations to remain linked to the old state.",
+    "customer": "Emily Davis",
+    "priority": "LOW PRIORITY",
+    "status": "Open",
+    "created_at": "1/18/2024"
+  },
+  {
+    "id": "#1005",
+    "title": "App Crash on Launch",
+    "description": "Application logs show a NullPointerException immediately after the splash screen on specific Samsung Galaxy devices.",
+    "customer": "David Wilson",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "created_at": "1/19/2024"
+  },
+  {
+    "id": "#1006",
+    "title": "Refund Not Processed",
+    "description": "The refund for order #9822 shows as 'Approved' in the admin panel but hasn't appeared on the customer's bank statement after 14 days.",
+    "customer": "Sophia Taylor",
+    "priority": "MEDIUM PRIORITY",
+    "status": "In-Progress",
+    "created_at": "1/20/2024"
+  },
+  {
+    "id": "#1007",
+    "title": "Two-Factor Authentication Issue",
+    "description": "The SMS gateway is failing to deliver OTP codes to international mobile carriers, preventing the user from bypassing the security wall.",
+    "customer": "James Anderson",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "created_at": "1/21/2024"
+  },
+  {
+    "id": "#1008",
+    "title": "Unable to Update Profile Picture",
+    "description": "The image uploader returns a 'Format not supported' error even though the user is attempting to upload a standard 500kb PNG file.",
+    "customer": "Olivia Martinez",
+    "priority": "LOW PRIORITY",
+    "status": "Open",
+    "created_at": "1/22/2024"
+  },
+  {
+    "id": "#1009",
+    "title": "Subscription Auto-Renewal",
+    "description": "The 'Auto-renew' toggle button is grayed out in the settings menu, preventing the user from securing their next billing cycle.",
+    "customer": "Liam Thomas",
+    "priority": "MEDIUM PRIORITY",
+    "status": "In-Progress",
+    "created_at": "1/17/2024"
+  },
+  {
+    "id": "#1010",
+    "title": "Missing Order Confirmation Email",
+    "description": "Transactional emails are not being triggered for new orders; user has checked both primary and promotional folders without success.",
+    "customer": "Isabella Garcia",
+    "priority": "MEDIUM PRIORITY",
+    "status": "Open",
+    "created_at": "1/24/2024"
+  }
+]
