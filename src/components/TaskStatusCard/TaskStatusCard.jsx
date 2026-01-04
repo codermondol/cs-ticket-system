@@ -3,7 +3,7 @@ import { toast } from 'react-toastify';
 import checkMarkIcon from '../../assets/check-mark2.png'
 
 const TaskStatusCard = ({ ticket, completeTask, setCompleteTask, removeTicket }) => {
-    // console.log(ticket)
+
     const handleResolvedBtn = (ticket) => {
         setCompleteTask([...completeTask, ticket])
         removeTicket(ticket)

@@ -4,7 +4,6 @@ import TaskStatusCard from '../TaskStatusCard/TaskStatusCard';
 import ResolvedTicketCard from '../ResolvedTicketCard/ResolvedTicketCard';
 
 const TaskStatus = ({ selectedTicket, completeTask, setCompleteTask, removeTicket }) => {
-    // console.log(selectedTicket)
 
     return (
         <div>

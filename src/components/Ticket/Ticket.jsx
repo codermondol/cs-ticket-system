@@ -4,7 +4,6 @@ import calendarImg from '../../assets/Vector.png'
 import { toast } from 'react-toastify';
 
 const Ticket = ({ ticket, selectedTicket, setSelectedTicket }) => {
-    // console.log(ticket)
 
     const handleTicket = ticket => {
         setSelectedTicket([...selectedTicket, ticket])

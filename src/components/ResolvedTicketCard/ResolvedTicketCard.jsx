@@ -3,7 +3,7 @@ import Ticket from '../Ticket/Ticket';
 import CompleteTaskCard from '../CompleteTaskCard/CompleteTaskCard';
 
 const ResolvedTicketCard = ({ completeTask }) => {
-    // console.log(completeTask)
+
 
     return (
         <div className='bg-white shadow-[0px_4px_16px_0px_rgba(0,0,0,0.08)] p-3 mt-6'>

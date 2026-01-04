@@ -6,7 +6,6 @@ import TaskStatus from '../TaskStatus/TaskStatus';
 
 const Tickets = ({ ticketsPromise }) => {
     const ticketsData = use(ticketsPromise)
-    // console.log(ticketsData)
 
     const [tickets, setTickets] = useState([])
     const [selectedTicket, setSelectedTicket] = useState([])
